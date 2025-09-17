@@ -17,7 +17,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.betoatexpo.bgtasks"
+      "package": "com.deaniel.bgtasks"
     },
     "web": {
       "bundler": "metro",
@@ -41,6 +41,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0507cbe1-27e2-4af1-9671-5c4de3c9bcfe"
+      }
+    },
+    "owner": "deaniel"
   }
 }
